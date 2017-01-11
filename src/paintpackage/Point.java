@@ -1,6 +1,6 @@
 package paintpackage;
 
-public class Point {
+public class Point implements Drawable {
 	private int x;
 	private int y;
 	
@@ -25,13 +25,13 @@ public class Point {
 		this.y = y;
 	}
 	public void show() {
-		System.out.println( "Á¡ [x=" + x + ", y=" + y + "]À» ±×·È½À´Ï´Ù." );
+		System.out.println( "ï¿½ï¿½ [x=" + x + ", y=" + y + "]ï¿½ï¿½ ï¿½×·È½ï¿½ï¿½Ï´ï¿½." );
 	}
 	public void show( boolean visible ) {
 		if( visible ) {
 			show();
 		} else {
-			System.out.println( "Á¡ [x=" + x + ", y=" + y + "]À» Áö¿ü½À´Ï´Ù." );
+			System.out.println( "ï¿½ï¿½ [x=" + x + ", y=" + y + "]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½." );
 		}
 	}
 	
