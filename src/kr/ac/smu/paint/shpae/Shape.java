@@ -1,4 +1,4 @@
-package paint;
+package kr.ac.smu.paint.shpae;
 
 public abstract class Shape { //추상 클래스
 	private String color;

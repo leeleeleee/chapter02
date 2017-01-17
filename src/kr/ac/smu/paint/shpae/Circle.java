@@ -1,4 +1,6 @@
-package paint;
+package kr.ac.smu.paint.shpae;
+
+import paint.Drawable;
 
 public class Circle extends Shape implements Drawable{
 	private int x;

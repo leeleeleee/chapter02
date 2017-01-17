@@ -1,6 +1,11 @@
-package paint;
+package kr.ac.smu.paint.main;
 
-public class PaintApp {
+import kr.ac.smu.paint.shpae.Circle;
+import kr.ac.smu.paint.shpae.Rectangle;
+import kr.ac.smu.paint.shpae.Triangle;
+import paint.Drawable;
+
+public class PaintApp1 {
 
 	public static void main(String[] args) {
 		Rectangle rectangle = new Rectangle();
